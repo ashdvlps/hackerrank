@@ -7,7 +7,7 @@ sset = set([int(x) for x in input().split()])
 for i in range(0,int(input())):
     op = input().split()[0]
 
-    other_set = set(set([int(x) for x in input().split()]))
+    other_set = set([int(x) for x in input().split()])
 
     if op == 'update':
         sset.update(other_set)
